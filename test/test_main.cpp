@@ -2,7 +2,6 @@
 #include <iostream>
 
 int main() {
-
   rt::square(7);
 
   return 0;
