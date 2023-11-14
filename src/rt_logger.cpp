@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <termcolor/termcolor.hpp>
+#include <stacktrace>
 
 namespace rt {
   int square(int value) {
@@ -11,5 +12,9 @@ namespace rt {
         termcolor::reset << '\n';
 
     return value * value;
+  }
+
+  void show_stacktrace() {
+    std::cout << std::stacktrace::current() << '\n';
   }
 }
