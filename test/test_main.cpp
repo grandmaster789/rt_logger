@@ -10,8 +10,7 @@ TEST_CASE("Basic stacktrace", "[dummy]") {
   rt::show_stacktrace();
 }
 
-/*int main() {
-  rt::square(7);
+TEST_CASE("Log helper", "[dummy]") {
 
-  return 0;
-}*/
+
+}

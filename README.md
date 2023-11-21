@@ -17,7 +17,7 @@ include(FetchContent)
 FetchContent_Declare(
     rt_logger
     GIT_REPOSITORY "https://github.com/grandmaster789/rt_logger.git"
-    GIT_TAG        "origin/master"
+    GIT_TAG        "origin/main"
 )
 FetchContent_MakeAvailable(rt_logger)
 ```
